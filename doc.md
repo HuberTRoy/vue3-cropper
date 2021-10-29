@@ -297,52 +297,52 @@ clipModal();
     position: absolute;
   }
 
-  .top-left {
+  .topleft {
     top: -5px;
     left: -5px;
     cursor: nwse-resize;
   }
 
-  .top-right {
+  .topright {
     top: -5px;
     right: -5px;
     cursor: nesw-resize;
   }
 
-  .top-center {
+  .topcenter {
     top: -5px;
     left: 50%;
     transform: translateX(-50%);
     cursor: ns-resize;
   }
 
-  .bottom-center {
+  .bottomcenter {
     bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
     cursor: ns-resize;
   }
 
-  .bottom-left {
+  .bottomleft {
     bottom: -5px;
     left: -5px;
     cursor: nesw-resize;
   }
 
-  .bottom-right {
+  .bottomright {
     bottom: -5px;
     right: -5px;
     cursor: nwse-resize;
   }
 
-  .left-center {
+  .leftcenter {
     top: 50%;
     transform: translateY(-50%);
     left: -5px;
     cursor: ew-resize;
   }
 
-  .right-center {
+  .rightcenter {
     top: 50%;
     transform: translateY(-50%);
     right: -5px;
@@ -351,14 +351,14 @@ clipModal();
 </style>
 
 <div class="cropper-clip">
-  <div class="dot top-left"></div>
-  <div class="dot top-right"></div>
-  <div class="dot top-center"></div>
-  <div class="dot bottom-left"></div>
-  <div class="dot bottom-center"></div>
-  <div class="dot bottom-right"></div>
-  <div class="dot left-center"></div>
-  <div class="dot right-center"></div>
+  <div class="dot topleft"></div>
+  <div class="dot topright"></div>
+  <div class="dot topcenter"></div>
+  <div class="dot bottomleft"></div>
+  <div class="dot bottomcenter"></div>
+  <div class="dot bottomright"></div>
+  <div class="dot leftcenter"></div>
+  <div class="dot rightcenter"></div>
 </div>
 ```
 
@@ -387,14 +387,14 @@ const drawClipDiv = () => {
 ```HTML
 <div class="cropper">
   <div class="cropper-clip">
-    <div class="dot top-left"></div>
-    <div class="dot top-right"></div>
-    <div class="dot top-center"></div>
-    <div class="dot bottom-left"></div>
-    <div class="dot bottom-center"></div>
-    <div class="dot bottom-right"></div>
-    <div class="dot left-center"></div>
-    <div class="dot right-center"></div>
+    <div class="dot topleft"></div>
+    <div class="dot topright"></div>
+    <div class="dot topcenter"></div>
+    <div class="dot bottomleft"></div>
+    <div class="dot bottomcenter"></div>
+    <div class="dot bottomright"></div>
+    <div class="dot leftcenter"></div>
+    <div class="dot rightcenter"></div>
   </div>
 </div>
 ```

@@ -120,7 +120,7 @@
         default: 300,
       },
     },
-    setup(props, { emit }) {
+    setup(props: any, { emit }: any) {
       let defaultCanvas = document.createElement("canvas");
 
       let cardBg = ref<HTMLCanvasElement>(defaultCanvas);
